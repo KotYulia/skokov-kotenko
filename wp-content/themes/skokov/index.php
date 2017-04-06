@@ -50,6 +50,9 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+<section>
+    <?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]') ?>
+</section>
 
 <?php
 get_sidebar();
